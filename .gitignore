@@ -1,0 +1,19 @@
+# Ignore everything by default
+*
+
+# Track these folders
+!notebooks/
+!notebooks/**
+!src/
+!src/**
+
+# Track root config files
+!.gitignore
+!requirements.txt
+!__init__.py
+
+# But always ignore these inside tracked folders
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
