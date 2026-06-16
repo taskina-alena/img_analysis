@@ -19,7 +19,7 @@ from skimage.morphology import footprint_rectangle as rectangle
 from scipy import ndimage as ndi
 from skimage.feature import peak_local_max
 from skimage import morphology
-from .ellipse_analysis import ellipse_polygon
+from ellipse_analysis import ellipse_polygon
 '''
 # Import our custom modules
 from .circularity import (
